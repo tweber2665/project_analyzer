@@ -1,0 +1,65 @@
+# Project Analyzer Suite - Requirements File
+# ==========================================
+# 
+# Analyzes project codebases to generate comprehensive reports on:
+# - File structure and organization
+# - Function definitions and usage
+# - Variable naming and categorization
+# - File paths and API endpoints
+#
+# Author: Tim Weber
+# Python Version: >= 3.9 (required for ast.unparse in functions analyzer)
+
+# Core Dependencies
+# =================
+# This project uses ONLY Python standard library modules.
+# No external packages need to be installed!
+
+# The following standard library modules are used:
+# - ast          : Abstract Syntax Tree parsing for Python code analysis
+# - re           : Regular expressions for pattern matching
+# - os           : Operating system interface
+# - sys          : System-specific parameters
+# - json         : JSON encoder and decoder
+# - csv          : CSV file reading and writing
+# - pathlib      : Object-oriented filesystem paths
+# - collections  : Specialized container datatypes (defaultdict)
+# - datetime     : Date and time handling
+# - time         : Time-related functions
+# - argparse     : Command-line argument parsing
+# - typing       : Type hints support
+# - fnmatch      : Unix filename pattern matching
+# - urllib.parse : URL parsing
+# - mimetypes    : Map filenames to MIME types
+# - subprocess   : Subprocess management
+
+# Optional Development Dependencies
+# =================================
+# Uncomment these if you want additional development tools:
+
+# Code Quality Tools
+# ------------------
+# black==23.12.1           # Code formatter
+# isort==5.13.2           # Import statement sorter
+# flake8==7.0.0           # Style guide enforcement
+# pylint==3.0.3           # Code analysis
+# mypy==1.8.0             # Static type checker
+
+# Testing
+# -------
+# pytest==7.4.4           # Testing framework
+# pytest-cov==4.1.0       # Coverage plugin for pytest
+# coverage==7.4.0         # Code coverage measurement
+
+# Documentation
+# -------------
+# sphinx==7.2.6           # Documentation generator
+# sphinx-rtd-theme==2.0.0 # ReadTheDocs theme for Sphinx
+
+# Performance Profiling
+# --------------------
+# line-profiler==4.1.2    # Line-by-line profiling
+# memory-profiler==0.61.0 # Memory usage profiling
+
+# Note: To install optional dependencies, use:
+# pip install -r requirements.txt --uncomment-optional

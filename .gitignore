@@ -1,0 +1,279 @@
+# Project Analyzer - Git Ignore File
+# ==================================
+
+# Python Virtual Environments
+# ---------------------------
+.venv/
+venv/
+env/
+ENV/
+.env/
+virtualenv/
+.virtualenv/
+pyenv/
+.pyenv/
+pipenv/
+.pipenv/
+conda-env/
+conda_env/
+miniconda*/
+anaconda*/
+
+# Python Compiled Files
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Python Package Files
+# -------------------
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# Testing and Coverage
+# -------------------
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.hypothesis/
+nosetests.xml
+pytest.xml
+test-results/
+
+# Project Analysis Output
+# ----------------------
+# The actual analysis output directories (if running on self)
+project_analysis/
+**/project_analysis/
+
+# Temporary Analysis Files
+# -----------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.~*
+
+# IDE and Editor Files
+# -------------------
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+.\#*
+.emacs.desktop
+.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# Operating System Files
+# ---------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs and Databases
+# -----------------
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+logs/
+log/
+
+# Environment Variables
+# --------------------
+.env
+.env.*
+!.env.example
+.envrc
+.env.local
+.env.production
+.env.development
+
+# Jupyter Notebooks
+# ----------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# Package Managers
+# ---------------
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Backup Files
+# -----------
+*.bak
+*.backup
+*.old
+*.orig
+*.original
+backup/
+backups/
+
+# Cache and Temporary
+# ------------------
+.cache/
+cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Documentation Build
+# ------------------
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+_build/
+.doctrees/
+
+# Performance Profiling
+# --------------------
+*.prof
+*.lprof
+.prof/
+profiling/
+
+# Security and Secrets
+# -------------------
+*.pem
+*.key
+*.crt
+*.cer
+private/
+secrets/
+credentials/
+
+# Archive Files
+# ------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.gz
+*.xz
+
+# Output Files
+# -----------
+output/
+outputs/
+results/
+reports/
+
+# Miscellaneous
+# ------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
